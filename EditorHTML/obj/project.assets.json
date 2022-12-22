@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\EditorHTML\\EditorHTML\\EditorHTML.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\EdHtml\\EditorHtml\\EditorHTML\\EditorHTML.csproj",
       "projectName": "EditorHTML",
-      "projectPath": "C:\\Users\\Rafael\\Desktop\\EditorHTML\\EditorHTML\\EditorHTML.csproj",
+      "projectPath": "C:\\Users\\Rafael\\Desktop\\EdHtml\\EditorHtml\\EditorHTML\\EditorHTML.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Desktop\\EditorHTML\\EditorHTML\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\Desktop\\EdHtml\\EditorHtml\\EditorHTML\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
