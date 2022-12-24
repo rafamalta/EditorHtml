@@ -18,6 +18,7 @@
             EscreverOpcoes();
 
             var opcao = short.Parse(Console.ReadLine());
+            ManipularMenuOpcoes(opcao);
         }
 
         public static void CriarLinhaSuperior()
@@ -78,6 +79,22 @@
             Console.WriteLine("0 - Sair");
             Console.SetCursorPosition(3, 10);
             Console.Write("Opção: ");
+        }
+
+        public static void ManipularMenuOpcoes(short opcao)
+        {
+            switch (opcao)
+            {
+                case 1: Console.WriteLine("Criar"); break;
+                case 2: Console.WriteLine("Editar"); break;
+                case 0:
+                    {
+                        Console.Clear();
+                        Environment.Exit(0);
+                        break;
+                    }
+                default: Exibir(); break;
+            }
         }
     }
 }
