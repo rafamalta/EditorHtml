@@ -8,9 +8,7 @@
             // altera a cor do fundo
             Console.BackgroundColor = ConsoleColor.Blue;
             // altera a cor da fonte
-            Console.ForegroundColor = ConsoleColor.Black;
-
-            Console.WriteLine("Testando as cores");
+            Console.ForegroundColor = ConsoleColor.Black;            
 
             CriarLinhaSuperior();
             CriarColunas();
@@ -85,7 +83,7 @@
         {
             switch (opcao)
             {
-                case 1: Console.WriteLine("Criar"); break;
+                case 1: Editor.Mostrar(); break;
                 case 2: Console.WriteLine("Editar"); break;
                 case 0:
                     {
